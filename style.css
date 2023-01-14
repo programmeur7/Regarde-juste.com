@@ -1,0 +1,110 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* La barre de navigation */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0 25px;
+    
+}
+
+h1:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: transform 0.25s ;
+}
+
+nav .gauche{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav .gauche h1{
+    padding-top: 5px;
+    
+}
+
+nav .gauche .onglets{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+nav .gauche .onglets p{
+    margin-left: 10px;
+    cursor: pointer;
+    color: #909191;
+    text-decoration: none;
+}
+
+nav .gauche .onglets p:hover{
+    color: #fff;
+}
+
+nav .droite{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav .droite p{
+    margin-right: 10px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+/*Fin de la barre de navigation*/
+
+/* Les animes et serie */
+.films-et-series{
+    background-color: #191a1a;
+    padding: 25px;
+}
+
+.films-et-series .section {
+    margin-bottom: 55px;
+}
+
+.films-et-series .section h2{
+    color: #fff;
+
+}
+
+.films-et-series .section .list{
+    display: flex;
+    overflow-x: auto;
+}
+
+.films-et-series .section img{
+    margin-right: 20px;
+    transition: transform 0.25s;
+    border-radius: 14px ;
+    cursor: pointer;
+    
+   
+}
+
+.films-et-series .section img:hover{
+    transform: scale(1.05);
+}
+
+.films-et-series .section img{
+    height: 140px;
+    clear: both;
+}
+
+
+/* Fin des animes et serie */
+
+p{
+    color: #fff;
+}
+
+.resaux-sociaux{
+    color: #fff;
+}
